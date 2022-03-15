@@ -165,6 +165,7 @@ function crearCielo() {
 }
 
 // Creacion de las nubes
+// Las nubes se han obtenido de este modelo https://sketchfab.com/3d-models/magic-forest-15adb44385ea4473ba57308ab32ab768
 function crearNubes() {
 	var loader = new THREE.ObjectLoader();
 	loader.load( 'models/nube/nube1.json', 
@@ -299,6 +300,7 @@ function crearNubes() {
 }
 
 // Creacion de la isla
+// La isla se ha obtenido de este modelo https://sketchfab.com/3d-models/magic-forest-15adb44385ea4473ba57308ab32ab768
 function crearIsla() {
 	var loader = new THREE.ObjectLoader();
 	loader.load( 'models/isla/islas.json', 
@@ -334,6 +336,7 @@ function crearIsla() {
 }
 
 // Creacion de los arboles
+// Los arboles son de este modelo https://sketchfab.com/3d-models/trees-lowpoly-assets-5d2e4354befd419f88107fcfd2c0d4e2
 function crearArboles() {
 	var loader = new THREE.ObjectLoader();
 	loader.load( 'models/tree/tree1.json', 
@@ -383,6 +386,7 @@ function crearArboles() {
 }
 
 // Creacion del terreno de juego
+// El terreno se ha hecho desde cero
 function crearTerreno() {
 	var miTerreno = new THREE.Object3D();
 	miTerreno.position.set(-5, 0, -5);
@@ -416,6 +420,7 @@ function crearTerreno() {
 }
 
 // Creacion del snake
+// La snake se ha hecho desde cero, la textura es de este enlace https://www.colourbox.com/vector/snake-skin-texture-seamless-pattern-green-background-vector-vector-10761951
 function crearSnake() {
 	var miSnake = new THREE.Object3D();
 	miSnake.position.set(0, 0.5, 0);
